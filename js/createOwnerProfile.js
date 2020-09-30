@@ -1,5 +1,5 @@
 function openGymHome(){
 
-    window.location.replace('../homeGym.html')
+    window.location.replace('./homeGym.html')
 
 }

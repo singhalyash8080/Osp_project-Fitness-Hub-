@@ -1,10 +1,10 @@
 function opensignup(){
 
-    window.location.replace('../signup.html')
+    window.location.replace('./signup.html')
 }
 
 function opensignin(){
 
-    window.location.replace('../signin.html')
+    window.location.replace('./signin.html')
 }
 

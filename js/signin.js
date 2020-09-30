@@ -2,12 +2,12 @@ function openHomePage(){
 
     if($('#option').is(":checked")){
 
-        window.location.replace('../homeUser.html')
+        window.location.replace('./homeUser.html')
 
     }
     else{
 
-        window.location.replace('../homeGym.html')
+        window.location.replace('./homeGym.html')
 
     }
 
