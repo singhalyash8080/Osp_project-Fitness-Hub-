@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+    <link rel="stylesheet" href="./css/main.css">
+
+    <style>
+        .main {
+            /* border:2px solid blue; */
+        }
+
+        .main-head {
+            font-size: 70px;
+            /* text-align: center; */
+            font-weight: 400;
+            color: white;
+            /* background-color:rgb(143, 138, 138); */
+            /* padding:20px; */
+        }
+
+        .main-text {
+            font-size: 30px;
+            /* text-align: center; */
+            font-weight: 300;
+            color: white;
+            /* padding:20px; */
+            /* background-color:rgb(143, 138, 138); */
+        }
+
+        .butt {
+            /* border:red solid 2px; */
+            /* text-align: center; */
+        }
+
+        .butt-elem {
+            /* border:2px green solid; */
+            font-size: 35px;
+            color: white;
+            padding: 10px 30px;
+            /* max-width:140px; */
+            min-width: 183.3px;
+            border-color: white;
+        }
+
+        #butt-style {
+            outline-color: black;
+        }
+
+        #butt-style:hover {
+            background-color: white;
+            border-color: white;
+            color: black;
+        }
+
+        /* media queries */
+
+        @media only screen and (max-width:1200px) {
+
+            .main-head {
+                font-size: 50px;
+            }
+
+            .main-text {
+                font-size: 20px;
+            }
+
+        }
+
+        /* media queries end */
+    </style>
+
+</head>
+
+<body>
+
+    <section class="landing_page">
+
+        <div class="container-xl main">
+
+            <br><br><br>
+
+            <h1 class="main-head">The Fitness Station</h1>
+            <br><br>
+
+            <p class="main-text">Our website is a unique place for fitness lovers who also travel a lot. It is a hub
+                where gyms of various areas collaborate with us and as you travel you can change your gyms as per your
+                convenience</p>
+
+            <br><br>
+
+
+            <div class="row">
+
+
+                <div class="col-sm-4 butt">
+
+                    <button class="butt-elem btn btn-outline-primary btn-lg" id="butt-style" onclick="opensignup()">Sign
+                        Up</button>
+                </div>
+                <div class="col-sm-4"></div>
+
+            </div>
+
+            <br>
+
+            <div class="row">
+
+
+                <div class="col-sm-4 butt">
+
+                    <button class="butt-elem btn btn-outline-primary btn-lg" id="butt-style" onclick="opensignin()">Log
+                        In</button>
+                </div>
+                <div class="col-sm-4"></div>
+
+            </div>
+
+            <br><br>
+
+        </div>
+    </section>
+
+
+
+</body>
+
+<script src="./js/landing.js"></script>
+
+</html>

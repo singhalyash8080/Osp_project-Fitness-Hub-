@@ -1,0 +1,154 @@
+body{
+    margin:0;
+    /* border:2px solid black; */
+}
+
+.landing_page{
+
+    background: url('https://img2.goodfon.com/wallpaper/nbig/7/23/dumbbell-weight-lifting-man.jpg');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* border:black solid 2px; */
+    /* margin-bottom:-15px; */
+    min-height:100vh;
+}
+
+.form-start{
+
+    background-color: rgba(128, 128, 128, 0.582);
+    padding:20px;
+}
+
+.form-head{
+    font-size:50px;
+    color:white;
+    text-align: center;
+}
+
+.form-inputs label{
+    color:white;
+}
+
+#form-butt{
+    text-align: center; 
+    /* border:2px red solid;  */
+    /* margin:0 auto;  */
+}
+
+#form-butt button{
+    background-color:black;
+    border:none;
+}
+
+#form-butt button:hover{
+    background-color: white;
+    color:black;
+}
+
+.home_page{
+    /* border:2px yellow solid; */
+    /* height:200px; */
+    padding:30px;
+}
+
+.contents{
+    /* border:red solid 2px; */
+    /* height:100px; */
+}
+
+.cardStyle{
+    padding:20px;
+    background-color: rgba(128, 128, 128, 0.582);
+    border-radius: 45px 0px;
+}
+
+.card-title{
+    font-size:40px;
+}
+
+.card-text{
+    font-size:20px;
+}
+
+.card-link{
+    color:white;
+    font-size:20px;
+    font-weight: 800;
+}
+
+.card-link:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+
+
+.detailsHead{
+    color:white;
+    font-size:60px;
+    font-weight: 700;
+    text-decoration:underline;
+}
+
+.label{
+    color:white;
+    font-size:35px;
+    font-weight: 800;
+}
+
+.detail{
+    color:white;
+    font-size:35px;
+}
+
+.options-container{
+    /* border:2px yellow solid; */
+    width: 17em;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.options-container button{
+    font-size:35px;
+    min-width:120px;
+    color: white;
+    border-color: white;
+}
+
+@media only screen and (max-width:880px){
+
+    .detailsHead{
+        font-size:50px;
+    }
+
+    .label,.detail{
+        font-size:30px;
+    }
+
+    .options-container button{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:560px){
+
+    .detailsHead{
+        font-size:40px;
+    }
+
+    .label,.detail{
+        font-size:25px;
+    }
+
+    .options-container button{
+        font-size: 25px;
+    }
+}
+
