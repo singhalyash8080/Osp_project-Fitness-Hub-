@@ -33,17 +33,15 @@
 
   <section class="landing_page">
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-      <a class="navbar-brand" href="./homeGym.html">FitnessHub</a>
+      <a class="navbar-brand logo" href="./homeGym.html">FitnessHub</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
+          
           <li class="nav-item">
-            <a class="nav-link" href="./defaulters.html">Defaulters</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./profileOwner.html">Profile</a>
+            <a class="nav-link profile" href="./profileOwner.html">Profile</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Help</a>
@@ -60,13 +58,16 @@
         <h1 class="detailsHead">Gym Name</h1><br><br>
 
         <span class="label">Location:</span><br>
-        <span class="detail">Delhi</span><br><br>
+        <span class="detail" id="location"></span><br><br>
+
+        <span class="label">Details:</span><br>
+        <span class="detail" id="details"></span><br><br>
 
         <span class="label">Monthly plan:</span><br>
-        <span class="detail">$1000</span><br><br>
+        <span class="detail" id="price"></span><br><br>
 
         <span class="label">Contact number :</span><br>
-        <span class="detail">9654563731</span><br><br>
+        <span class="detail" id="phone"></span><br><br>
 
         <div class="options">
           <div class="options-container">
@@ -84,5 +85,16 @@
   </section>
 
 </body>
+
+<script>
+const queryString3 = window.location.search
+
+$('.logo').attr('href','./homeGym.html?'+ queryString3.split('?')[1])
+
+$('.profile').attr('href','./profileOwner.html?'+ queryString3.split('?')[1])
+
+</script>
+
+<script src="./js/gymDetails.js"></script>
 
 </html>
