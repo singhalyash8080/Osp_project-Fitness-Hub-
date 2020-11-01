@@ -99,11 +99,11 @@
 
 const queryString3 = window.location.search
 
-$('.logo').attr('href','./homeUser.html?'+ queryString3.split('?')[1])
+$('.logo').attr('href','./homeUser.html?'+ queryString3.split('/')[1])
 
-$('.profile').attr('href','./profileUser.html?'+ queryString3.split('?')[1])
+$('.profile').attr('href','./profileUser.html?'+ queryString3.split('/')[1])
 
-$('.payment').attr('href', './payment.html?' + queryString3.split('?')[1])
+$('.payment').attr('href', './payment.html?' + queryString3.split('/')[1])
 
 </script>
 

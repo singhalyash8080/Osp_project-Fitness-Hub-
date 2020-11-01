@@ -29,7 +29,7 @@ fetch('http://localhost/osp/fetch-allgym.php', requestOptions)
             <div class="card-body">
               <h4 class="card-title">`+ data[i].gym_name + `</h4>
               <p class="card-text">`+data[i].detail+`</p>
-              <a href="./gymDetailsOwner.html?`+data[i].gym_name+`" class="card-link">View</a>
+              <a href="./gymDetailsOwner.html?`+ data[i].gym_name + `/` + queryString.split('?')[1] + `" class="card-link">View</a>
             </div>
           </div> <br>`
 

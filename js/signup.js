@@ -32,7 +32,7 @@ function openCreateProfile() {
 
                 alert('Member profile created successfully !')
 
-                window.location.replace('./homeUser.html')
+                window.location.replace('./homeUser.html?'+$('#email').val())
 
             })
 
@@ -69,7 +69,7 @@ function openCreateProfile() {
 
                 alert('Owner profile created successfully !')
 
-                window.location.replace('./homeGym.html')
+                window.location.replace('./homeGym.html?'+$('#email').val())
 
             })
 
